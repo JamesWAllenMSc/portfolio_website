@@ -1,0 +1,20 @@
+.main_tagline {
+  display: block;
+  font-family: sans-serif;
+  color: rgb(95, 98, 102);
+  text-align: center;
+}
+
+.main_header {
+  display: block;
+  text-align: Center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+
+.main_footer {
+  display: block;
+  font-family: sans-serif;
+  text-align: center;
+}

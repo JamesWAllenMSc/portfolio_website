@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title> James W Allen, MSc </title>
+        <link rel="stylesheet" href="{% static '/style.css' %}">
+        
+    </head>
+    <body>
+        <header>
+        <h1><span class="main_header">James W Allen, MSc</span></h1>
+        <p><span class="main_tagline"> Data Analyst and Python Developer</span></p>
+        </header>
+
+        {% block content %}
+        {% endblock %}
+
+        <footer>
+            <p><span class="main_footer"> Authored by James W Allen, MSc | 
+                Powered by Microsoft Azure |
+                Connect on <a href="https://www.linkedin.com/in/jameswallenmsc/">Linkedin</a> |
+                View source code on <a href="https://github.com/JamesWAllenMSc">Github</a></span></p>
+          </footer>
+
+    </body>
+</html>
