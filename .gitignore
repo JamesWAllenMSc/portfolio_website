@@ -1,2 +1,6 @@
 # Virtual environment
 /venv
+
+#Keys
+/.DJANGO_SECRET_KEY
+```
